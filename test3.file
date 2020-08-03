@@ -1,0 +1,74 @@
+MotionNotify 1078 495
+KeyStrPress Escape
+KeyStrRelease Escape
+KeyStrPress Escape
+KeyStrRelease Escape
+KeyStrPress BackSpace
+KeyStrRelease BackSpace
+KeyStrPress BackSpace
+KeyStrRelease BackSpace
+KeyStrPress Escape
+KeyStrRelease Escape
+KeyStrPress BackSpace
+KeyStrRelease BackSpace
+MotionNotify 841 1045
+ButtonPress 1
+ButtonRelease 1
+MotionNotify 1062 485
+ButtonPress 1
+ButtonRelease 1
+MotionNotify 1062 474
+ButtonPress 1
+ButtonRelease 1
+MotionNotify 1047 634
+ButtonPress 1
+ButtonRelease 1
+MotionNotify 1236 705
+ButtonPress 1
+ButtonRelease 1
+MotionNotify 1256 678
+ButtonPress 1
+ButtonRelease 1
+KeyStrPress F12
+KeyStrRelease F12
+KeyStrPress Shift_L
+KeyStrPress Left
+KeyStrRelease Left
+KeyStrRelease Shift_L
+KeyStrPress c
+KeyStrRelease c
+KeyStrPress a
+KeyStrRelease a
+KeyStrPress t
+KeyStrPress space
+KeyStrRelease t
+KeyStrRelease space
+KeyStrPress t
+KeyStrRelease t
+KeyStrPress e
+KeyStrRelease e
+KeyStrPress s
+KeyStrRelease s
+KeyStrPress t
+KeyStrRelease t
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrPress Shift_L
+KeyStrPress quotedbl
+KeyStrRelease quotedbl
+KeyStrRelease Shift_L
+KeyStrPress Tab
+KeyStrRelease Tab
+KeyStrPress Return
+KeyStrRelease Return
+KeyStrPress F12
+KeyStrRelease F12
+MotionNotify 783 690
+ButtonPress 1
+ButtonRelease 1
+KeyStrPress F12
+KeyStrRelease F12
+KeyStrPress Shift_L
+KeyStrPress Right
+KeyStrRelease Right
+KeyStrRelease Shift_L

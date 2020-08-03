@@ -1,0 +1,27 @@
+KeyStrPress Escape
+KeyStrRelease Escape
+Delay 1
+MotionNotify 133 1003
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+MotionNotify 1061 530
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+MotionNotify 1062 629
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+MotionNotify 1256 716
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+MotionNotify 1256 687
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+MotionNotify 731 697
+ButtonPress 1
+ButtonRelease 1
+Delay 1
