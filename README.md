@@ -10,4 +10,4 @@
 
 * ::
 
-	xmacroplay "$DISPLAY" < test.file
+	xmacroplay -d 1000 "$DISPLAY" < test.file
