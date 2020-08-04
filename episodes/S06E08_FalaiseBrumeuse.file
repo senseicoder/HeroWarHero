@@ -27,7 +27,7 @@ Delay 1
 MotionNotify 1259 670
 ButtonPress 1
 ButtonRelease 1
-Delay 100
+Delay 80
 #retour en ville
 MotionNotify 738 696
 ButtonPress 1
