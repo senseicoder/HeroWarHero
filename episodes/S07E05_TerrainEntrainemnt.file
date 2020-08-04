@@ -19,7 +19,7 @@ ButtonPress 1
 ButtonRelease 1
 Delay 1
 #activer autopouvoirs
-MotionNotify 1259 663
+MotionNotify 1259 670
 ButtonPress 1
 ButtonRelease 1
 Delay 100
