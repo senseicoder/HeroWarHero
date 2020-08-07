@@ -1,0 +1,34 @@
+Delay 1
+MotionNotify 716 440
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+#saison précédente, choisir la 6
+MotionNotify 378 477
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+#choix épisode
+MotionNotify 968 434
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+#valider épisode
+MotionNotify 1076 638
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+#sélection équipe
+MotionNotify 1227 737
+ButtonPress 1
+ButtonRelease 1
+Delay 1
+#activer autopouvoirs
+MotionNotify 1259 670
+ButtonPress 1
+ButtonRelease 1
+Delay 80
+#retour en ville
+MotionNotify 738 696
+ButtonPress 1
+ButtonRelease 1
