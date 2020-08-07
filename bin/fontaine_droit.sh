@@ -1,0 +1,1 @@
+bash scripts/play.sh tour/fontaine/begin_droit tour/fontaine/butt1 tour/fontaine/outquestion tour/fontaine/butt2 tour/fontaine/outquestion tour/fontaine/butt3 tour/fontaine/outquestion tour/fontaine/end

@@ -1,0 +1,15 @@
+MotionNotify 840 564
+KeyStrPress F12
+KeyStrRelease F12
+Delay 2
+MotionNotify 1043 502
+ButtonPress 1
+ButtonRelease 1
+Delay 2
+MotionNotify 1109 547
+ButtonPress 1
+ButtonRelease 1
+Delay 2
+MotionNotify 1114 675
+ButtonPress 1
+ButtonRelease 1
