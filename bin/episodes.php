@@ -36,7 +36,7 @@ function GenerateGoEpisode($iSaison, $iEpisode, $iSaisonMax)
 	$sValider = "#valider épisode\nMotionNotify 1076 638\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
 	$sEquipe = "#sélection équipe\nMotionNotify 1227 737\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
 	$sAutoPouvoirs = "#activer autopouvoirs\nDelay 1\nMotionNotify 1259 670\nButtonPress 1\nButtonRelease 1\n";
-	$sAttendreCombat = "#attendre_combat\nDelay 60\n#EOB";
+	$sAttendreCombat = "#attendre_combat\nDelay 80\n#EOB";
 	
 	if(isset($aCoords[$iSaison][$iEpisode])) {
 		return GenerateGoSaison($iSaison, $iSaisonMax)
