@@ -10,6 +10,7 @@ $aCoords = array(
 		07 => array('coords'=>'895 530', 'lib'=>"Etendues Glaciales"),
 	),
 	07 => array(
+		02 => array('coords'=>'522 484', 'lib'=>"Ratelier d'arme"),
 		05 => array('coords'=>'776 424', 'lib'=>"Terrain d'entrainement"),
 	),
 );
@@ -35,7 +36,7 @@ function GenerateGoEpisode($iSaison, $iEpisode, $iSaisonMax)
 	$sValider = "#valider épisode\nMotionNotify 1076 638\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
 	$sEquipe = "#sélection équipe\nMotionNotify 1227 737\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
 	$sAutoPouvoirs = "#activer autopouvoirs\nDelay 1\nMotionNotify 1259 670\nButtonPress 1\nButtonRelease 1\n";
-	$sAttendreCombat = "#attendre_combat\nDelay 100\n";
+	$sAttendreCombat = "#attendre_combat\nDelay 60\n#EOB";
 	
 	if(isset($aCoords[$iSaison][$iEpisode])) {
 		return GenerateGoSaison($iSaison, $iSaisonMax)
@@ -45,7 +46,4 @@ function GenerateGoEpisode($iSaison, $iEpisode, $iSaisonMax)
 	else echo "S${iSaison}E${iEpisode} n'existe pas\n";
 }
 
-echo "### 6/7\n";
-echo GenerateGoEpisode(6, 7, 7);
-echo "\n### 7/5\n";
-echo GenerateGoEpisode(7, 5, 7);
+echo GenerateGoEpisode($argv[1], $argv[2], 7);
