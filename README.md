@@ -12,6 +12,14 @@
 
 	xmacroplay -d 1000 "$DISPLAY" < test.file
 
+## Loot
+
+* confins du monde niv4 pour plusieurs
+* S06E01 pour archere
+* grande scission S7 pour coupechou
+* foyer ennemi S5 pour choupechou
+* s05 rivage dangereux pour gaalad et artilleuse, et autres 
+
 ## Todo
 
 * gnome-terminal --geometry=60x57+1600+0 --title='RUN!!' --working-directory=/home/cedric/www/c/HeroWarHero
