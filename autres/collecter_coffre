@@ -1,0 +1,17 @@
+#coffre
+MotionNotify 577 590
+ButtonPress 1
+ButtonRelease 1
+Delay 2
+MotionNotify 1004 658
+ButtonPress 1
+ButtonRelease 1
+Delay 2
+MotionNotify 1118 252
+ButtonPress 1
+ButtonRelease 1
+Delay 2
+MotionNotify 1305 247
+ButtonPress 1
+ButtonRelease 1
+Delay 2

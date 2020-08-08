@@ -1,4 +1,3 @@
-MotionNotify 484 295
 KeyStrPress F12
 KeyStrRelease F12
 MotionNotify 577 590
@@ -103,5 +102,3 @@ ButtonRelease 1
 MotionNotify 552 263
 ButtonPress 1
 ButtonRelease 1
-KeyStrPress F12
-KeyStrRelease F12

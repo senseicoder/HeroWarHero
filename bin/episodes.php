@@ -1,49 +1,5 @@
 <?php
 
-$aCoords = array(
-	01 => array(),
-	02 => array(),
-	03 => array(),
-	04 => array(),
-	05 => array(),
-	06 => array(
-		07 => array('coords'=>'895 530', 'lib'=>"Etendues Glaciales"),
-	),
-	07 => array(
-		02 => array('coords'=>'522 484', 'lib'=>"Ratelier d'arme"),
-		05 => array('coords'=>'776 424', 'lib'=>"Terrain d'entrainement"),
-	),
-);
+require 'common.inc.php';
 
-function GenerateGoSaison($iNum, $iSaisonMax)
-{
-	$sBegin = "#sélectionner saison %d\n";
-	$sBefore = "MotionNotify 378 477\nButtonPress 1\nButtonRelease 1\nDelay 2\n";
-
-	$result = sprintf($sBegin, $iNum);
-	for($ct = $iSaisonMax; $ct>$iNum; $ct--) {
-		echo "$ct>$iNum\n";
-		$result .= $sBefore;
-	}
-	return $result;
-}
-
-function GenerateGoEpisode($iSaison, $iEpisode, $iSaisonMax)
-{
-	global $aCoords;
-
-	$sChoix = "#episode S%02dE%02d %s\nMotionNotify %s\nButtonPress 1\nButtonRelease 1\nDelay 2\n";
-	$sValider = "#valider épisode\nMotionNotify 1076 638\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
-	$sEquipe = "#sélection équipe\nMotionNotify 1227 737\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
-	$sAutoPouvoirs = "#activer autopouvoirs\nDelay 1\nMotionNotify 1259 670\nButtonPress 1\nButtonRelease 1\n";
-	$sAttendreCombat = "#attendre_combat\nDelay 80\n#EOB";
-	
-	if(isset($aCoords[$iSaison][$iEpisode])) {
-		return GenerateGoSaison($iSaison, $iSaisonMax)
-			. sprintf($sChoix, $iSaison, $iEpisode, $aCoords[$iSaison][$iEpisode]['lib'], $aCoords[$iSaison][$iEpisode]['coords']) 
-			. $sValider . $sEquipe . $sAutoPouvoirs . $sAttendreCombat;
-	}
-	else echo "S${iSaison}E${iEpisode} n'existe pas\n";
-}
-
-echo GenerateGoEpisode($argv[1], $argv[2], 7);
+echo GenerateGoEpisode($argv[1], $argv[2], $iSaisonMax);
