@@ -14,8 +14,8 @@
 
 ## Loot
 
+* terres de mord crhone, S6, deux trucs utiles
 * confins du monde niv4 pour plusieurs
-* S06E01 pour archere
 * grande scission S7 pour coupechou
 * foyer ennemi S5 pour choupechou
 * s05 rivage dangereux pour gaalad et artilleuse, et autres 
