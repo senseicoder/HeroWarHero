@@ -15,3 +15,7 @@ MotionNotify 1305 247
 ButtonPress 1
 ButtonRelease 1
 Delay 2
+MœotionNotify 837 648
+KeyStrPress a
+KeyStrRelease a
+Delay 2

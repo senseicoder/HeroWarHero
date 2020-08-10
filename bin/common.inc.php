@@ -9,9 +9,25 @@ $aCoords = array(
 	),
 	 2 => array(),
 	 3 => array(
+		1 => array('coords'=>'443 382', 'lib'=>'avant-poste', 'duree'=>40),
+		2 => array('coords'=>'559 433', 'lib'=>'désert rocailleux', 'duree'=>40),
+		3 => array('coords'=>'716 384', 'lib'=>'escalier de grog', 'duree'=>40),
+		4 => array('coords'=>'823 342', 'lib'=>'falaise poussièreuse', 'duree'=>40),
+		5 => array('coords'=>'921 404', 'lib'=>'ravine pourrissante', 'duree'=>40),
+		6 => array('coords'=>'1081 423', 'lib'=>'montagne vivace', 'duree'=>40),
+		7 => array('coords'=>'897 509', 'lib'=>'pont délabré', 'duree'=>40),
+		8 => array('coords'=>'811 556', 'lib'=>'terres roussies', 'duree'=>40),
+		9 => array('coords'=>'642 599', 'lib'=>'route du deuil', 'duree'=>40),
+		10 => array('coords'=>'509 645', 'lib'=>'sanctuaire des ancètres', 'duree'=>40),
 		11 => array('coords'=>'607 687', 'lib'=>'Vallée des sapins'),
+		12 => array('coords'=>'858 687', 'lib'=>'abords du camp', 'duree'=>40),
+		13 => array('coords'=>'1017 652', 'lib'=>'patrouille orque', 'duree'=>40),
+		14 => array('coords'=>'1127 599', 'lib'=>'camp frontalier', 'duree'=>40),
+		15 => array('coords'=>'1265 680', 'lib'=>'tente du chef', 'duree'=>40),
+
 	),
 	 4 => array(
+	 	#aux confins du monde
 		11 => array('coords'=>'1062 633', 'lib'=>'Granit du silence', 'duree'=>60),
 	),
 	 5 => array(),

@@ -63,7 +63,3 @@ MotionNotify 1313 186
 ButtonPress 1
 ButtonRelease 1
 Delay 2
-MotionNotify 881 278
-ButtonPress 1
-ButtonRelease 1
-Delay 2
