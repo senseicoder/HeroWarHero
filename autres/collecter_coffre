@@ -1,21 +1,24 @@
-#coffre
+#ouvrir la fonction
 MotionNotify 577 590
 ButtonPress 1
 ButtonRelease 1
 Delay 2
+#ouvrir le coffre
 MotionNotify 1004 658
 ButtonPress 1
 ButtonRelease 1
 Delay 2
+#valider si on reçoit des pierres parce qu'on a déjà le héro
+MotionNotify 832 700
+ButtonPress 1
+ButtonRelease 1
+#fermer après cadeau
 MotionNotify 1118 252
 ButtonPress 1
 ButtonRelease 1
 Delay 2
+#fermer la fonction
 MotionNotify 1305 247
 ButtonPress 1
 ButtonRelease 1
-Delay 2
-MœotionNotify 837 648
-KeyStrPress a
-KeyStrRelease a
 Delay 2
