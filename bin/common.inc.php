@@ -1,6 +1,6 @@
 <?php
 
-$iSaisonMax = 7;
+$iSaisonMax = 8;
 
 $aCoords = array(
 	 1 => array(
@@ -82,7 +82,7 @@ $aCoords = array(
 	 7 => array(
 		 1 => array('coords'=>'455 360', 'lib'=>""),
 		 2 => array('coords'=>'522 484', 'lib'=>"Ratelier d'arme"),
-		 3 => array('coords'=>'616 475', 'lib'=>""),
+		 3 => array('coords'=>'616 475', 'lib'=>"Os rongés"),
 		 4 => array('coords'=>'701 436', 'lib'=>""),
 		 5 => array('coords'=>'776 424', 'lib'=>"Terrain d'entrainement"),
 		 6 => array('coords'=>'898 427', 'lib'=>""),
@@ -102,7 +102,7 @@ $aCoords = array(
 
 function GenerateGoSaison($iNum, $iSaisonMax)
 {
-	$sBegin = "#sélectionner saison %d\n";
+	$sBegin = "#sélectionner_saison_%d\n";
 	$sBefore = "MotionNotify 378 477\nButtonPress 1\nButtonRelease 1\nDelay 2\n";
 
 	$result = sprintf($sBegin, $iNum);
@@ -116,16 +116,17 @@ function GenerateGoEpisode($iSaison, $iEpisode, $iSaisonMax)
 {
 	global $aCoords;
 
-	$sChoix = "#episode S%02dE%02d %s\nMotionNotify %s\nButtonPress 1\nButtonRelease 1\nDelay 2\n";
+	$sChoix = "#episode_S%02dE%02d_%s\nMotionNotify %s\nButtonPress 1\nButtonRelease 1\nDelay 2\n";
 	$sValider = "#valider_épisode\nMotionNotify 1076 638\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
 	$sEquipe = "#sélection_équipe\nMotionNotify 1227 737\nButtonPress 1\nButtonRelease 1\nDelay 1\n";
-	$sAutoPouvoirs = "#activer autopouvoirs\nDelay 4\nMotionNotify 1259 670\nButtonPress 1\nButtonRelease 1\n";
+	$sAutoPouvoirs = "#activer_autopouvoirs\nDelay 4\nMotionNotify 1259 670\nButtonPress 1\nButtonRelease 1\n";
 	$sAttendreCombat = "#attendre_combat\nDelay %d\n#EOB";
 	
 	if(isset($aCoords[$iSaison][$iEpisode])) {
 		$iDuree = 80;
 		if(isset($aCoords[$iSaison][$iEpisode]['duree'])) $iDuree = $aCoords[$iSaison][$iEpisode]['duree'];
-		return sprintf($sChoix, $iSaison, $iEpisode, $aCoords[$iSaison][$iEpisode]['lib'], $aCoords[$iSaison][$iEpisode]['coords']) 
+		return sprintf($sChoix, $iSaison, $iEpisode, str_replace(' ', '_', $aCoords[$iSaison][$iEpisode]['lib']), 
+			$aCoords[$iSaison][$iEpisode]['coords']) 
 			. $sValider . $sEquipe . $sAutoPouvoirs . sprintf($sAttendreCombat, $iDuree);
 	}
 	else echo "S${iSaison}E${iEpisode} n'existe pas\n";
