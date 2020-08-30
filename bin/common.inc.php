@@ -93,7 +93,7 @@ $aCoords = array(
 		11 => array('coords'=>'1053 661', 'lib'=>""),
 		12 => array('coords'=>'1126 634', 'lib'=>""),
 		13 => array('coords'=>'1196 554', 'lib'=>""),
-		14 => array('coords'=>'1071 457', 'lib'=>""),
+		14 => array('coords'=>'1071 457', 'lib'=>"Plaie mortelle", 'duree'=>110),
 		15 => array('coords'=>'1223 413', 'lib'=>""),
 	),
 );
