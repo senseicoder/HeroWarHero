@@ -53,14 +53,27 @@ $aCoords = array(
 		 9 => array('coords'=>'732 522', 'lib'=>'Abime sans fond', 'duree'=>60),
 		10 => array('coords'=>'915 622', 'lib'=>'Necropolis'),
 		11 => array('coords'=>'1062 633', 'lib'=>'Granit du silence', 'duree'=>60),
-		12 => array('coords'=>'1140 553', 'lib'=>'Suaire de la mort'),
+		12 => array('coords'=>'1140 553', 'lib'=>'Suaire de la mort', 'duree'=>60),
 		13 => array('coords'=>'993 506', 'lib'=>'Dans l\'au-dela'),
 		14 => array('coords'=>'1077 372', 'lib'=>'Atrium'),
 		15 => array('coords'=>'1260 365', 'lib'=>'Domaine de Gravehall', 'duree'=>60),
 	),
 	 5 => array(
-		13 => array('coords'=>'1143 382', 'lib'=>"Halte", 'duree'=>70),
-		14 => array('coords'=>'1249 409', 'lib'=>"Nature pourpre", 'duree'=>70),
+		 1 => array('coords'=>'429 358', 'lib'=>'Terrasses de Smagard', 'duree'=>65),
+		 2 => array('coords'=>'637 422', 'lib'=>'Obélisque', 'duree'=>65),
+		 3 => array('coords'=>'506 547', 'lib'=>'Poussière d\'émeraude', 'duree'=>65),
+		 4 => array('coords'=>'438 608', 'lib'=>'Sortie de Gravehall', 'duree'=>65),
+		 5 => array('coords'=>'519 671', 'lib'=>'Lumière aveuglante', 'duree'=>65),
+		 6 => array('coords'=>'657 680', 'lib'=>'Vie prospère', 'duree'=>65),
+		 7 => array('coords'=>'759 678', 'lib'=>'Déferlements empoisonnés', 'duree'=>65),
+		 8 => array('coords'=>'835 623', 'lib'=>'Fourré de cigue', 'duree'=>65),
+		 9 => array('coords'=>'777 543', 'lib'=>'', 'duree'=>65),
+		10 => array('coords'=>'827 488', 'lib'=>'', 'duree'=>65),
+		11 => array('coords'=>'931 486', 'lib'=>'', 'duree'=>65),
+		12 => array('coords'=>'1046 440', 'lib'=>'', 'duree'=>65),
+		13 => array('coords'=>'1131 373', 'lib'=>'Halte', 'duree'=>65),
+		14 => array('coords'=>'1250 404', 'lib'=>'Nature pourpre', 'duree'=>65),
+		15 => array('coords'=>'1181 564', 'lib'=>'', 'duree'=>65),
 	),
 	 6 => array(
 		 1 => array('coords'=>'453 601', 'lib'=>"Trou perdu"),
@@ -83,7 +96,7 @@ $aCoords = array(
 		 1 => array('coords'=>'455 360', 'lib'=>""),
 		 2 => array('coords'=>'522 484', 'lib'=>"Ratelier d'arme"),
 		 3 => array('coords'=>'616 475', 'lib'=>"Os rongés"),
-		 4 => array('coords'=>'701 436', 'lib'=>""),
+		 4 => array('coords'=>'701 436', 'lib'=>"Passage éclairé à la lanterne"),
 		 5 => array('coords'=>'776 424', 'lib'=>"Terrain d'entrainement"),
 		 6 => array('coords'=>'898 427', 'lib'=>""),
 		 7 => array('coords'=>'818 562', 'lib'=>""),
@@ -130,4 +143,13 @@ function GenerateGoEpisode($iSaison, $iEpisode, $iSaisonMax)
 			. $sValider . $sEquipe . $sAutoPouvoirs . sprintf($sAttendreCombat, $iDuree);
 	}
 	else echo "S${iSaison}E${iEpisode} n'existe pas\n";
+}
+
+function ListeEpisodes($iSaison)
+{
+	global $aCoords;
+
+	foreach($aCoords[$iSaison] as $iEpisode => $aEpisode) {
+		printf("%02d : %s\n", $iEpisode, $aEpisode['lib']);
+	}
 }
