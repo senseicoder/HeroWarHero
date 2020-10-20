@@ -54,8 +54,8 @@ $aCoords = array(
 		10 => array('coords'=>'915 622', 'lib'=>'Necropolis'),
 		11 => array('coords'=>'1062 633', 'lib'=>'Granit du silence', 'duree'=>60),
 		12 => array('coords'=>'1140 553', 'lib'=>'Suaire de la mort', 'duree'=>60),
-		13 => array('coords'=>'993 506', 'lib'=>'Dans l\'au-dela'),
-		14 => array('coords'=>'1077 372', 'lib'=>'Atrium'),
+		13 => array('coords'=>'993 506', 'lib'=>'Dans l\'au-dela', 'duree'=>60),
+		14 => array('coords'=>'1077 372', 'lib'=>'Atrium', 'duree'=>60),
 		15 => array('coords'=>'1260 365', 'lib'=>'Domaine de Gravehall', 'duree'=>60),
 	),
 	 5 => array(
