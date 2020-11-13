@@ -1,6 +1,6 @@
 <?php
 
-$iSaisonMax = 8;
+$iSaisonMax = 9;
 
 $aCoords = array(
 	 1 => array(
