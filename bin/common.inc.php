@@ -112,7 +112,7 @@ $aCoords = array(
 
 	 8 => array(
 		 1 => array('coords'=>'487 386', 'lib'=>"Capitale des adorateurs du feu", 'duree'=>120),
-		 2 => array('coords'=>'634 436', 'lib'=>"Monolithe de la malice", 'duree'=>120),
+		 2 => array('coords'=>'634 436', 'lib'=>"Monolithe de la malice", 'duree'=>75),
 		 3 => array('coords'=>'737 425', 'lib'=>"Palais anthracite", 'duree'=>120),
 		 4 => array('coords'=>'912 441', 'lib'=>"Basaltes", 'duree'=>120),
 		 5 => array('coords'=>'811 544', 'lib'=>"Monolithe de la tromperie", 'duree'=>120),
