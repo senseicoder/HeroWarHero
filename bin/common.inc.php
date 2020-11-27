@@ -82,7 +82,7 @@ $aCoords = array(
 		 4 => array('coords'=>'878 683', 'lib'=>'Zone humide', 'duree'=>60),
 		 5 => array('coords'=>'976 669', 'lib'=>'Fleurs de mandragore'),
 		 6 => array('coords'=>'1101 669', 'lib'=>'Cimetière abandonné'),
-		 7 => array('coords'=>'895 530', 'lib'=>"Etendues Glaciales", 'duree'=>60),
+		 7 => array('coords'=>'895 530', 'lib'=>"Etendues Glaciales", 'duree'=>50),
 		 8 => array('coords'=>'813 514', 'lib'=>'Falaise brumeuse'),
 		 9 => array('coords'=>'716 507', 'lib'=>'Terres de Mord Chrone', 'duree'=>50),
 		10 => array('coords'=>'575 455', 'lib'=>'Cercle rituel'),
