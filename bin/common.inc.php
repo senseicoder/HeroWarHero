@@ -84,7 +84,7 @@ $aCoords = array(
 		 6 => array('coords'=>'1101 669', 'lib'=>'Cimetière abandonné'),
 		 7 => array('coords'=>'895 530', 'lib'=>"Etendues Glaciales", 'duree'=>50),
 		 8 => array('coords'=>'813 514', 'lib'=>'Falaise brumeuse'),
-		 9 => array('coords'=>'716 507', 'lib'=>'Terres de Mord Chrone', 'duree'=>50),
+		 9 => array('coords'=>'716 507', 'lib'=>'Terres de Mord Chrone', 'duree'=>40),
 		10 => array('coords'=>'575 455', 'lib'=>'Cercle rituel'),
 		11 => array('coords'=>'667 393', 'lib'=>'Arches de Tarot', 'duree'=>60),
 		12 => array('coords'=>'975 430', 'lib'=>'Nuit éternelle', 'duree'=>60),
@@ -106,7 +106,7 @@ $aCoords = array(
 		11 => array('coords'=>'1053 661', 'lib'=>"Bataille de Santar"),
 		12 => array('coords'=>'1126 634', 'lib'=>"Grande scission"),
 		13 => array('coords'=>'1196 554', 'lib'=>"Chemin de guerre"),
-		14 => array('coords'=>'1071 457', 'lib'=>"Plaie mortelle", 'duree'=>110),
+		14 => array('coords'=>'1071 457', 'lib'=>"Plaie mortelle", 'duree'=>65),
 		15 => array('coords'=>'1223 413', 'lib'=>"Tumulus"),
 	),
 
