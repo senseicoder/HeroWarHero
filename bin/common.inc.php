@@ -4,8 +4,8 @@ $iSaisonMax = 10;
 
 $aCoords = array(
 	 1 => array(
-		 7 => array('coords'=>'894 612', 'lib'=>'Ville  en flamme', 'duree'=>30),
-		 8 => array('coords'=>'988 538', 'lib'=>'Chaussée brulante', 'duree'=>30),
+		 7 => array('coords'=>'894 612', 'lib'=>'Ville  en flamme', 'duree'=>40),
+		 8 => array('coords'=>'988 538', 'lib'=>'Chaussée brulante', 'duree'=>40),
 	),
 	 2 => array(
 		1 => array('coords'=>'446 672', 'lib'=>'Wilheim', 'duree'=>40),
@@ -70,7 +70,7 @@ $aCoords = array(
 		 9 => array('coords'=>'777 543', 'lib'=>'Rivages dangereux', 'duree'=>65),
 		10 => array('coords'=>'827 488', 'lib'=>'Pont du noyeur', 'duree'=>65),
 		11 => array('coords'=>'931 486', 'lib'=>'Hote indésirable', 'duree'=>65),
-		12 => array('coords'=>'1046 440', 'lib'=>'Foyer ennemi', 'duree'=>65),
+		12 => array('coords'=>'1046 440', 'lib'=>'Foyer ennemi', 'duree'=>43),
 		13 => array('coords'=>'1131 373', 'lib'=>'Halte', 'duree'=>65),
 		14 => array('coords'=>'1250 404', 'lib'=>'Nature pourpre', 'duree'=>65),
 		15 => array('coords'=>'1181 564', 'lib'=>'Maldabois', 'duree'=>65),
