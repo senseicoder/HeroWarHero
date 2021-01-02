@@ -1,6 +1,6 @@
 <?php
 
-$iSaisonMax = 10;
+$iSaisonMax = 12;
 
 $aCoords = array(
 	 1 => array(
@@ -101,7 +101,7 @@ $aCoords = array(
 		 6 => array('coords'=>'898 427', 'lib'=>"Sang de la terre"),
 		 7 => array('coords'=>'818 562', 'lib'=>"Sueur et sang", 'duree'=>90),
 		 8 => array('coords'=>'723 597', 'lib'=>"Nuit des temps", 'duree'=>100),
-		 9 => array('coords'=>'667 663', 'lib'=>"Pont sur l'abime", 'duree'=>100),
+		 9 => array('coords'=>'667 663', 'lib'=>"Pont sur l'abime", 'duree'=>60),
 		10 => array('coords'=>'933 669', 'lib'=>"Plaine des titans"),
 		11 => array('coords'=>'1053 661', 'lib'=>"Bataille de Santar"),
 		12 => array('coords'=>'1126 634', 'lib'=>"Grande scission"),
@@ -114,7 +114,7 @@ $aCoords = array(
 		 1 => array('coords'=>'487 386', 'lib'=>"Capitale des adorateurs du feu", 'duree'=>120),
 		 2 => array('coords'=>'634 436', 'lib'=>"Monolithe de la malice", 'duree'=>75),
 		 3 => array('coords'=>'737 425', 'lib'=>"Palais anthracite", 'duree'=>120),
-		 4 => array('coords'=>'912 441', 'lib'=>"Basaltes", 'duree'=>120),
+		 4 => array('coords'=>'912 441', 'lib'=>"Basaltes", 'duree'=>83),
 		 5 => array('coords'=>'811 544', 'lib'=>"Monolithe de la tromperie", 'duree'=>90),
 		 6 => array('coords'=>'694 616', 'lib'=>"Ame du volcan", 'duree'=>120),
 		 7 => array('coords'=>'898 660', 'lib'=>"Monolithe de l'inimitié", 'duree'=>120),
